@@ -13,7 +13,7 @@ docker-compose up -d
 
 3. Visit http://localhost:4203 to enter Crate IO panel and select *Console* tab. 
 4. Create tables from */server/schema.sql*
-5. Enter valid private keys to your config file
+5. Enter valid private keys to your *server/config.py* file
 ```
 VOTERS_WALLET_PRIV_KEY = ''
 OPTIONS_WALLET_PRIV_KEY = ''
